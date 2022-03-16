@@ -17,7 +17,7 @@ public class Admin {
 
 	private int admin_Id;
 
-	private String admin_Name;
+	private String admin_naaam;
 
 	@Column(unique = true)
 	private String admin_Mail;
@@ -43,11 +43,11 @@ public class Admin {
 	}
 
 	public String getAdmin_Name() {
-		return admin_Name;
+		return admin_naaam;
 	}
 
 	public void setAdmin_Name(String admin_Name) {
-		this.admin_Name = admin_Name;
+		this.admin_naaam = admin_Name;
 	}
 
 	public String getAdmin_Mail() {
